@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import React, { Component } from 'react'
 import logoArrow from '../img/logo-arrow.png'
 import logoText from '../img/logo-text.png'
 
