@@ -17,9 +17,9 @@ class Main extends Component {
         ];
     }
 
-    countLikes() { return this.setState({ likes: this.state.likes + 1 }) }
-    countHates() { return this.setState({ hates: this.state.hates + 1 }) }
-    resetStatus() { return this.setState({ likes: 0, hates: 0 }) }
+    countLikes = () => { return this.setState({ likes: this.state.likes + 1 }) }
+    countHates = () => { return this.setState({ hates: this.state.hates + 1 }) }
+    resetStatus = () => { return this.setState({ likes: 0, hates: 0 }) }
 
     render() {
         return (
